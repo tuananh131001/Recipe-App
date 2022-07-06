@@ -17,20 +17,20 @@ struct RecipeDetailView: View {
                 // MARK : Ingredient
                 VStack(alignment: .leading) {
                     Text("Ingredients").font(.headline).padding(.vertical, 5)
-                    ForEach(recipe.ingredients, id: \.self) { item in
-                        Text("😌" + item) .padding(.bottom, 5)
+                    ForEach(recipe.ingredients) { item in
+                        Text("😌" + item.name) .padding(.bottom, 5)
                     }
                 }.padding()
                 Divider()
-                
+
                 //MARK: Directions
                 VStack(alignment: .leading) {
-                    Text("Directions").font(.headline).padding(.vertical,5)
+                    Text("Directions").font(.headline).padding(.vertical, 5)
                     ForEach(0..<recipe.directions.count, id: \.self) { index in
-                        Text(String(index + 1) + "." + recipe.directions[index]).padding(.bottom,5)
+                        Text(String(index + 1) + "." + recipe.directions[index]).padding(.bottom, 5)
                     }
                 }
-                .padding(.horizontal, 10.0)
+                    .padding(.horizontal, 10.0)
             }
 
         }.navigationBarTitle(Text(recipe.name))

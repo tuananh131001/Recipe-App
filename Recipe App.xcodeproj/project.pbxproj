@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D08470728753814007B74AD /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08470628753814007B74AD /* RecipeTabView.swift */; };
 		3D2EFE89286C3076009623A7 /* Recipe_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2EFE88286C3076009623A7 /* Recipe_AppApp.swift */; };
 		3D2EFE8B286C3076009623A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2EFE8A286C3076009623A7 /* ContentView.swift */; };
 		3D2EFE8D286C307A009623A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2EFE8C286C307A009623A7 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D08470628753814007B74AD /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		3D2EFE85286C3076009623A7 /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2EFE88286C3076009623A7 /* Recipe_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppApp.swift; sourceTree = "<group>"; };
 		3D2EFE8A286C3076009623A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				3D2EFE8A286C3076009623A7 /* ContentView.swift */,
 				3DF4AC4E2872C38E00A26B8E /* RecipeDetailView.swift */,
+				3D08470628753814007B74AD /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				3D2EFEB6286C30A5009623A7 /* Recipe.swift in Sources */,
 				3DF4AC4F2872C38E00A26B8E /* RecipeDetailView.swift in Sources */,
+				3D08470728753814007B74AD /* RecipeTabView.swift in Sources */,
 				3D2EFEB8286C30EB009623A7 /* RecipeModel.swift in Sources */,
 				3D2EFE8B286C3076009623A7 /* ContentView.swift in Sources */,
 				3D2EFE89286C3076009623A7 /* Recipe_AppApp.swift in Sources */,
